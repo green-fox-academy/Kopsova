@@ -2,29 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="503c6e18-4717-4c07-9792-c239d9397217" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercise02_Humpty_Dumpty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercise03_Hello_Dudes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercise04_Introduce_Me.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercise05_TwoNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercise06_Coding_Hours.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercise07_FavoriteNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercise08_Swap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercise09_Bmi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercise10_DefineBasicInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercise11_VariableMutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercise12_Cuboid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercise13_SecondsInADay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercise14_HelloUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercise15_MileToKmConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercise16_AnimalsAndLegs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercise17_AverageOfInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercise18_OddEven.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercise19_OneTwoALot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercise20_PrintBigger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercise21_PartyIndicator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercise22_ConditionalVariableMutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise23_IWontCheatOnTheExams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Exercise01_Hello_Me.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Exercise02_Humpty_Dumpty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Exercise03_Hello_Dudes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Exercise04_Introduce_Me.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Exercise05_TwoNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Exercise06_Coding_Hours.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Exercise07_FavoriteNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Exercise08_Swap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Exercise09_Bmi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Exercise10_DefineBasicInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Exercise11_VariableMutation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Exercise12_Cuboid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Exercise13_SecondsInADay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Exercise14_HelloUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Exercise15_MileToKmConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Exercise16_AnimalsAndLegs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Exercise17_AverageOfInput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Exercise18_OddEven.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Exercise19_OneTwoALot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Exercise20_PrintBigger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Exercise21_PartyIndicator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Exercise22_ConditionalVariableMutation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercise22_ConditionalVariableMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercise22_ConditionalVariable.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,84 +39,42 @@
     <session id="-821128664">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.57" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="73" />
-          <entry key="java" value="3625" />
+          <entry key="dummy" value="93" />
+          <entry key="java" value="3906" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3625" />
-          <entry key="PLAIN_TEXT" value="73" />
+          <entry key="JAVA" value="3906" />
+          <entry key="PLAIN_TEXT" value="93" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Exercise02" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="39" />
+          <entry key="java" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="40" />
+          <entry key="JAVA" value="47" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Exercise06_Coding_Hours.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Exercise07_FavoriteNumber.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Exercise08_Swap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Exercise09_Bmi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Exercise10_DefineBasicInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Exercise11_VariableMutation.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -143,7 +103,61 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Exercise22_ConditionalVariableMutation.java">
+        <entry file="file://$PROJECT_DIR$/src/Exercise22_ConditionalVariable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="969">
+              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Exercise01_Hello_Me.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Exercise23_IWontCheatOnTheExams.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Exercise20_PrintBigger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="44" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1309">
+              <caret line="112" column="30" selection-start-line="112" selection-start-column="30" selection-end-line="112" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Exercise21_PartyIndicator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Exercise02_Humpty_Dumpty.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="13" selection-start-column="13" selection-end-column="13" />
@@ -192,6 +206,10 @@
         <option value="$PROJECT_DIR$/src/com/company/Exercise21_PartyIndicator.java" />
         <option value="$PROJECT_DIR$/src/com/company/Exercise22_ConditionalVariableMutation.java" />
         <option value="$PROJECT_DIR$/src/Exercise01_Hello_Me.java" />
+        <option value="$PROJECT_DIR$/src/Exercise22_ConditionalVariableMutation.java" />
+        <option value="$PROJECT_DIR$/src/Exercise22.java" />
+        <option value="$PROJECT_DIR$/src/Exercise22_ConditionalVariable.java" />
+        <option value="$PROJECT_DIR$/src/Exercise23_IWontCheatOnTheExams.java" />
       </list>
     </option>
   </component>
@@ -202,8 +220,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="112" />
-    <option name="y" value="26" />
+    <option name="x" value="110" />
+    <option name="y" value="25" />
     <option name="width" value="1750" />
     <option name="height" value="935" />
   </component>
@@ -215,7 +233,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,16 +250,18 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537458554891" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537474667939" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -256,55 +275,31 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Exercise22_ConditionalVariableMutation">
-    <configuration name="Exercise18_OddEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercise18_OddEven" />
-      <module name="untitled104" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="Application.Exercise01_Hello_Me">
+    <configuration name="Exercise01_Hello_Me" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercise01_Hello_Me" />
+      <module name="Day4" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercise19_OneTwoALot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercise19_OneTwoALot" />
-      <module name="untitled104" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Exercise12_Cuboid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercise12_Cuboid" />
+      <module name="Day4" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercise20_PrintBigger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercise20_PrintBigger" />
-      <module name="untitled104" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Exercise13_SecondsInADay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercise13_SecondsInADay" />
+      <module name="Day4" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercise21_PartyIndicator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercise21_PartyIndicator" />
-      <module name="untitled104" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Exercise22_ConditionalVariable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercise22_ConditionalVariable" />
+      <module name="Day4" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -323,19 +318,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Exercise18_OddEven" />
-      <item itemvalue="Application.Exercise19_OneTwoALot" />
-      <item itemvalue="Application.Exercise20_PrintBigger" />
-      <item itemvalue="Application.Exercise21_PartyIndicator" />
       <item itemvalue="Application.Exercise22_ConditionalVariableMutation" />
+      <item itemvalue="Application.Exercise13_SecondsInADay" />
+      <item itemvalue="Application.Exercise12_Cuboid" />
+      <item itemvalue="Application.Exercise22_ConditionalVariable" />
+      <item itemvalue="Application.Exercise01_Hello_Me" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exercise01_Hello_Me" />
+        <item itemvalue="Application.Exercise22_ConditionalVariable" />
         <item itemvalue="Application.Exercise22_ConditionalVariableMutation" />
-        <item itemvalue="Application.Exercise21_PartyIndicator" />
-        <item itemvalue="Application.Exercise20_PrintBigger" />
-        <item itemvalue="Application.Exercise19_OneTwoALot" />
-        <item itemvalue="Application.Exercise18_OddEven" />
+        <item itemvalue="Application.Exercise12_Cuboid" />
+        <item itemvalue="Application.Exercise13_SecondsInADay" />
       </list>
     </recent_temporary>
   </component>
@@ -349,44 +344,47 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1537434608932</updated>
-      <workItem from="1537434642887" duration="23278000" />
+      <workItem from="1537434642887" duration="24039000" />
+      <workItem from="1537469035753" duration="4662000" />
+      <workItem from="1537520045982" duration="1005000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23278000" />
+    <option name="totallyTimeSpent" value="29706000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="90" y="21" width="1400" height="748" extended-state="0" />
+    <frame x="88" y="20" width="1400" height="748" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27761194" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28656715" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" weight="0.32954547" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32954547" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32954547" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39935064" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32954547" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
     <layout-to-restore>
       <window_info id="Image Layers" order="0" />
@@ -425,17 +423,20 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/String.java</url>
+          <line>110</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/Exercise02">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exercise02_Humpty_Dumpty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="75" selection-start-line="8" selection-start-column="75" selection-end-line="8" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Exercise02" />
     <entry file="file://$PROJECT_DIR$/src/Exercise16_AnimalsAndLegs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -481,34 +482,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exercise20_PrintBigger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="44" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exercise21_PartyIndicator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exercise01_Hello_Me.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exercise02_Humpty_Dumpty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Exercise03_Hello_Dudes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -530,6 +503,7 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/untitled104.iml" />
     <entry file="file://$PROJECT_DIR$/src/Exercise06_Coding_Hours.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -537,6 +511,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exercise07_FavoriteNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exercise08_Swap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exercise22_ConditionalVariableMutation.java" />
     <entry file="file://$PROJECT_DIR$/src/Exercise09_Bmi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -572,29 +561,129 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/untitled104.iml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/Exercise22_ConditionalVariable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exercise22_ConditionalVariableMutation.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="112" column="30" selection-start-line="112" selection-start-column="30" selection-end-line="112" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exercise21_PartyIndicator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exercise02_Humpty_Dumpty.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exercise07_FavoriteNumber.java">
+    <entry file="file://$PROJECT_DIR$/src/Exercise01_Hello_Me.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        <state relative-caret-position="68">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exercise08_Swap.java">
+    <entry file="file://$PROJECT_DIR$/src/Exercise20_PrintBigger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        <state relative-caret-position="51">
+          <caret line="3" column="44" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="44" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exercise23_IWontCheatOnTheExams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Day4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
