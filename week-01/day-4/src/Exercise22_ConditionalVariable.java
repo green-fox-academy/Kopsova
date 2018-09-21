@@ -30,7 +30,7 @@ public class Exercise22_ConditionalVariable {
 
 
         int c = 123;
-        int credits = 100;
+        int credits = 10;
         boolean isBonus = false;
         // if credits are at least 50,
         // and isBonus is false decrement c by 2
@@ -39,14 +39,17 @@ public class Exercise22_ConditionalVariable {
         //        // if isBonus is true c should remain the same
         if ((credits >= 50) && (isBonus == false)) {
             c -= 2;
-
-            if ((credits < 50) && (isBonus == false)) {
-                c -= 1;
-            }
-
-
-            System.out.println(c);
         }
+
+
+        if ((credits < 50) && (isBonus == false)) {
+            c -= 1;
+        }
+
+
+        System.out.println(c);
+
+
 
 
         int d = 8;
