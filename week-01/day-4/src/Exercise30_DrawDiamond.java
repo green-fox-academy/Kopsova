@@ -20,7 +20,7 @@ public class Exercise30_DrawDiamond {
         System.out.println("Input number");
         int j = scanner.nextInt();
 
-        int a = j/2;
+        int a = j/2+1;
 
         int h = 1;
 
@@ -41,12 +41,28 @@ public class Exercise30_DrawDiamond {
 
             }
 
-
-
-
             System.out.println();
             h+=2;
         }
 
+        int r = 1;
+        for (int b = a-j; r<=b; r++ ) {
+            int k = 1;
+            while(k<=r) {
+                System.out.print("M");
+                k++;
+            }
+
+            int o = 1;
+            while (o>=a-b) {
+                System.out.print("*");
+                o++;
+            }
+            System.out.println();
+            r+=2;
+            }
+
+        }
+
     }
-}
+
