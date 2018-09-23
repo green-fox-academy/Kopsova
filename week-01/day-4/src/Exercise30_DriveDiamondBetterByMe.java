@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Exercise30_AgainDriveDiamond  {
+public class Exercise30_DriveDiamondBetterByMe {
 
 
     public static void main(String[] args) {
