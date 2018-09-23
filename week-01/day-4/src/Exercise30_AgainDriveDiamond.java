@@ -6,8 +6,7 @@ public class Exercise30_AgainDriveDiamond  {
     public static void main(String[] args) {
 
 
-        Scanner ascanner;
-        ascanner = new Scanner(System.in);
+        Scanner ascanner = new Scanner(System.in);
 
         System.out.println("Input number of lines");
         int totalrows;
