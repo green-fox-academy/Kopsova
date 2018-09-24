@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Exercise12_PrintElements {
     public static void main (String[] args){
 
@@ -6,7 +8,15 @@ public class Exercise12_PrintElements {
 // - Print all the elements of `numbers`
 
         int[] number = {4,5,6,7};
-        System.out.println(number);
+
+        System.out.println(Arrays.toString(number));
+
+        }
+
+
+
+
+
 
     }
-}
+
