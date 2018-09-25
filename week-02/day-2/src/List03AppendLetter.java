@@ -1,5 +1,5 @@
 
-/*import java.util.*;
+import java.util.*;
 
 public class List03AppendLetter {
     public static void main(String... args){
@@ -7,9 +7,27 @@ public class List03AppendLetter {
         // Create a method called "appendA()" that adds "a" to every string in the "far" list.
         // The parameter should be a list.
 
+
+
+
+
+
         System.out.println(appendA(far));
     }
 
 
+
+   public static List appendA (List <String> far ){
+       for (int i = 0; i <far.size() ; i++) {
+           far.set(i, far.get(i)+ "a");
+       }
+          return far;
+       }
+
+
+
+
+
+
 }
-}
+
