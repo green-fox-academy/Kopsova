@@ -18,10 +18,16 @@ public class Map01HewilNever {
         // Things are a little bit messed up
         // Your job is to decode the notSoCrypticMessage by using the hashmap as a look up table
         // Assemble the fragments into the out variable
+        String poem = "";
+
+        for (int i = 0; i < notSoCrypticMessage.length ; i++) {
+            poem = poem + map.get(notSoCrypticMessage[i]);}
+
+        System.out.println(poem);
 
         System.out.println(out);
     }
-    public static String out(int[] notSoCrypticMessage , Map map){
+    public static String out(int[] notSoCrypticMessage , HashMap map){
         String poem = "";
 
         for (int i = 0; i < notSoCrypticMessage.length ; i++) {
