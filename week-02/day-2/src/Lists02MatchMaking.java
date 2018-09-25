@@ -25,9 +25,9 @@ public class Lists02MatchMaking {
                 together.add(i * 2 + 1, boys.get(i));
 
             }
-            for (int i = girls.size(); i < boys.size() ; i++) {
+            for (int i = 0; i < boys.size()-girls.size() ; i++) {
 
-                together.add(i*2, boys.get(i));
+                together.add( girls.size()*2+i, boys.get(girls.size()+i));
 
             }
 
