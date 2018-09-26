@@ -28,7 +28,7 @@ public class E13CheckerBoard {
                 int x = a;
                 int y = 2*a;
                 x = 2*i*a +a;
-                y = 2*j*a+a; 
+                y = 2*j*a+a;
 
                 drawBlack( x , y, a, graphics);
 
