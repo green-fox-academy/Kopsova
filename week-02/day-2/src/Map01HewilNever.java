@@ -25,9 +25,9 @@ public class Map01HewilNever {
 
         System.out.println(poem);
 
-        System.out.println(out);
+        System.out.println(out(notSoCrypticMessage,map));
     }
-    public static String out(int[] notSoCrypticMessage , HashMap map){
+    public static String out(int[] notSoCrypticMessage , Map map){
         String poem = "";
 
         for (int i = 0; i < notSoCrypticMessage.length ; i++) {
