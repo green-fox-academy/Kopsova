@@ -4,14 +4,35 @@ import java.awt.*;
 
 import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
-public class E06SquareInTheCenter {
+
+
+public class E11PurpleSteps {
+
     public static void mainDraw(Graphics graphics) {
-        // Draw a green 10x10 square to the canvas' center.
+        // Reproduce this:
+        // [https://github.com/green-fox-academy/teaching-materials/blob/master/workshop/drawing/purple-steps/r3.png]
+        for (int i = 0; i < 20 ; i++) {
+            int x = 20;
+             x = i*x;
+            drawLilPurpleSquare(x,graphics);
 
-        graphics.setColor(Color.GREEN);
-        graphics.fillRect(160, 172,10,10);
+        }
 
-    }
+
+
+
+
+}
+
+public static void drawLilPurpleSquare(int x,  Graphics graphics){
+        graphics.setColor(new Color(186,85,204));
+        graphics.fillRect(x, x,20,20);
+
+        graphics.setColor(Color.BLACK);
+        graphics.drawRect(x, x,20,20);
+
+
+}
     // Don't touch the code below
     static int WIDTH = 320;
     static int HEIGHT = 343;
@@ -30,7 +51,6 @@ public class E06SquareInTheCenter {
         protected void paintComponent(Graphics graphics) {
             super.paintComponent(graphics);
             mainDraw(graphics);
-
         }
     }
 }
