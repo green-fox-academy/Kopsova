@@ -10,14 +10,14 @@ public class E07FillWithRectangles {
         // avoid code duplication.
 
 
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < 4; i++) {
             int x = (int) (Math.random()*1000);
             int y = (int) (Math.random()*1000);
             int w = (int) (Math.random()*1000);
             int h = (int) (Math.random()*1000);
-            int r = (int) (Math.random()*255);
-            int g = (int) (Math.random()*255);
-            int b = (int) (Math.random()*255);
+            int r = (int) (Math.random()*256);
+            int g = (int) (Math.random()*256);
+            int b = (int) (Math.random()*256);
             drawMyRect(x,y,w,h,r,g,b,graphics);
         }
 
