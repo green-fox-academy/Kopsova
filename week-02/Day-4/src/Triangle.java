@@ -10,14 +10,15 @@ public class Triangle {
 
 
         int startx1 = 100;
-        int y1 = 300;
+        int y1 = 400;
         int a = 20;
         int th = triangleHeiht(a);
-        int trlenth = 15;
+        int trlenth = 21;
+        int triangleLenghFix = trlenth;
 
-        
 
-        for (int i = 0; i < trlenth*1000; i++) {
+
+        for (int i = 0; i < triangleLenghFix; i++) {
 
             int x1= startx1 + a/2*i;
             y1=y1-th;
