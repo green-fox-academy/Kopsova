@@ -9,12 +9,35 @@ public class Triangle {
     public static void mainDraw(Graphics graphics) {
 
 
-        int x1 = 200;
-        int y1 = 0;
-        int a = 10;
+        int startx1 = 100;
+        int y1 = 300;
+        int a = 20;
         int th = triangleHeiht(a);
+        int trlenth = 15;
 
-        drawLilTriangle(a,th,x1,y1, graphics);
+        
+
+        for (int i = 0; i < trlenth*1000; i++) {
+
+            int x1= startx1 + a/2*i;
+            y1=y1-th;
+            trlenth--;
+
+
+            for (int j = 0; j < trlenth; j++) {
+
+                x1 = (x1 + a);
+                drawLilTriangle(a, th, x1, y1, graphics);
+            }
+
+        }
+
+
+
+
+
+
+
 
 
 
@@ -27,19 +50,15 @@ public class Triangle {
     }
 
 
-    public static void drawLilTriangle (int a, int th, int x1, int y1, Graphics graphics){
-        System.out.println(a);
-        System.out.println(x1);
-        System.out.println(y1);
-        int x2 = x1 + a/2;
+    public static void drawLilTriangle (int a, int th, int startx1, int y1, Graphics graphics){
+        int x2 = startx1 + a/2;
         int y2 = y1 + th;
         graphics.setColor(Color.BLACK);
-        graphics.drawLine(x1, y1, x2, y2);
+        graphics.drawLine(startx1, y1, x2, y2);
         int x3 = x2 -a;
         int y3 = y2;
         graphics.drawLine(x2,y2,x3,y3);
-        graphics.drawLine(x3,y3,x1,y1);
-
+        graphics.drawLine(x3,y3,startx1,y1);
     }
 
 
