@@ -9,68 +9,45 @@ public class SuperHexagon {
         //base length - a
         int a = 20;
         int hh = 2 * triangleHeiht(a);
-        int startx1 = 500;
+        int startx1 = 250;
         int starty1 = 500;
 
-       // int x1 = startx1;
-       // int y1 = starty1;
-        int hexags = 4;
+        int hexags = 5;
+        int longestRow = hexags -1;
+        int rows = hexags*2-1;
         int zx1 = startx1;
         int zy1 = starty1;
-        int rows =1;
 
 
-        for (int i = 0; i <7; i++) {
 
-            int storezx1 = zx1;
-            int storezy1 = zy1;
+        for (int i = 0; i < rows; i++) {
 
-           if (rows<5) {
-
-
-                zx1 = zx1 + a + a / 2;
+           if (i<longestRow +1) {
+                zx1 = zx1 + (int)((double)a *1.5) ;
                 zy1 = zy1 - hh / 2;
-
            }
-           
             else{
-           zx1=storezx1;
-           zy1=storezy1;
-
-                zx1 = zx1;
-                zy1 = zy1+hh;
+            //  zx1 = zx1;
+                zy1 = zy1-hh;
             }
-
         //draws 4 hexagons
             int x1 = zx1;
             int y1 = zy1;
-        for (int j = 0; j < hexags; j++) {
 
+             for (int j = 0; j < hexags; j++) {
+                 x1 = x1 - (a + a / 2);
+                 y1 = y1 - hh / 2;
+                 drawLilHexagone(a, hh, x1, y1, graphics);
+             }
 
-            x1 = x1 - (a + a / 2);
-            y1 = y1 - hh / 2;
-            drawLilHexagone(a, hh, x1, y1, graphics);
+            if (i<longestRow) {
+                hexags++;
+            }
+            else {
+                hexags--;
+            }
         }
-        rows++;
-        if (rows<5) {
-            hexags++;
-        }
-        else {
-            hexags--;
-        }
-
-
-
-
-
-
-    }
-
-
-
-
-
-       }
+}
 
 
 
@@ -111,8 +88,10 @@ public class SuperHexagon {
 
 
     // Don't touch the code below
-    static int WIDTH = 320;
-    static int HEIGHT = 343;
+//    static int WIDTH = 320;
+//    static int HEIGHT = 343;
+    static int WIDTH = 600;
+    static int HEIGHT = 600;
 
     public static void main(String[] args) {
         JFrame jFrame = new JFrame("Drawing");
