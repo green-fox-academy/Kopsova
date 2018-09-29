@@ -7,21 +7,17 @@ import static javax.swing.JFrame.EXIT_ON_CLOSE;
 public class SuperHexagon {
     public static void mainDraw(Graphics graphics) {
         //base length - a
-        int a = 20;
+        int a = 36;
         int hh = 2 * triangleHeiht(a);
         int startx1 = 250;
         int starty1 = 500;
-
-        int hexags = 5;
+        int hexags = 4;
         int longestRow = hexags -1;
         int rows = hexags*2-1;
         int zx1 = startx1;
         int zy1 = starty1;
 
-
-
         for (int i = 0; i < rows; i++) {
-
            if (i<longestRow +1) {
                 zx1 = zx1 + (int)((double)a *1.5) ;
                 zy1 = zy1 - hh / 2;
