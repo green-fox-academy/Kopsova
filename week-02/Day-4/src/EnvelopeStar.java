@@ -19,10 +19,10 @@ public class EnvelopeStar {
 
         drawLowerQ((0 +widthX),0, (0 +widthX), widthX,spaceLines, widthX, graphics);
         drawLowerQ(widthX, y1+widthX,  x2, 0 + widthX, spaceLines, widthX, graphics);
-        //drawOneThreeQ(x1,y1,x2,widthX,spaceLines, widthX, graphics);
+       // drawOneThreeQ(x1,y1,x2,widthX,spaceLines, widthX, graphics);
         drawOneThreeQ(widthX,y1,x2,widthX+widthX,spaceLines, widthX, graphics);
 
-        drawLowerQ(widthX,y1,widthX,widthX,-spaceLines,widthX,graphics);
+        drawLowerQ(widthX +x1,y1,widthX+x2,widthX +y2, spaceLines*(-1),widthX,graphics);
 
 
 
