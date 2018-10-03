@@ -8,7 +8,7 @@ public class Counter {
     }
     public Counter (int field){
         this.field = field;
-        number = field;
+        this.number = field;
 
     }
 
@@ -17,6 +17,7 @@ public class Counter {
     }
 
     public void add (){
+
         field++;
     }
     public int get () {
