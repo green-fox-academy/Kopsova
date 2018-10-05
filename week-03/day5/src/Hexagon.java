@@ -7,37 +7,48 @@ import static javax.swing.JFrame.EXIT_ON_CLOSE;
 public class Hexagon {
     public static void mainDraw(Graphics graphics){
 
+int a = 300;
+double h = 0.866* a;
 
-
-hexFractal(0,0,600,graphics);
+hexFractal(0,0,300,h,graphics);
 
 
     }
 
-    public static void drawHexagon (int x, int y, int a, Graphics graphics){
+    public static void drawHexagon (int x, int y, int a, double h,Graphics graphics){
         graphics.setColor(Color.BLUE);
-        graphics.drawLine(x+(int)(a/2),  y, x+(int)(a/2)+a, y);
-        graphics.drawLine(x+(int)(a/2)+a, (int) y, x+2*a, y+(int)(((Math.pow(3, 1/2)*a))) );
-        graphics.drawLine(x+2*a, y+(int)(((Math.pow(3, 1/2)*a))), x+(int)(a/2)+a, y+ 2* (int)(((Math.pow(3, 1/2)*a)))  );
-        graphics.drawLine ( x+(int)(a/2)+a, y+ 2* (int)(((Math.pow(3, 1/2)*a))), x+(int)(a/2), y+ 2* (int)(((Math.pow(3, 1/2)*a)))  );
-        graphics.drawLine ( x+(int)(a/2), y+ 2* (int)(((Math.pow(3, 1/2)*a))), x, y+(int)(((Math.pow(3, 1/2)*a)))  );
-        graphics.drawLine (  x, y+(int)(((Math.pow(3, 1/2)*a))), x+(int)(a/2),  y   );
+        graphics.drawLine((int)(x+(int)(0.5*a)),  y, x+(int)(a/2)+a, y);
+        graphics.drawLine((int) x+(int)((a/2.0))+a, (int) y, x+2*a, y+(int)(0.866*a) );
+        graphics.drawLine(x+2*a, y+(int)(0.866*a), x+(int)(a/2.0)+a, y+ 2* (int)(0.866*a)  );
+        graphics.drawLine ( x+(int)(a/2.0)+a, y+ 2* (int)(0.866*a), x+(int)(a/2.0), y+ 2* (int)(0.866*a)  );
+        graphics.drawLine ( x+(int)(a/2.0), y+ 2* (int)(0.866*a), x, y +(int)(0.866*a));
+        graphics.drawLine (  x, y+(int)(0.866*a), x+(int)(a/2.0),  y   );
     }
 
-    public static void hexFractal ( int x, int y, int a, Graphics graphics){
-        if (a<=5){
-            drawHexagon(x+(int)(a/2),y,a,graphics);
-        } else {
+    public static void hexFractal ( int x, int y, int a, double h, Graphics graphics){
+        if (a<=10){
+            drawHexagon(x,y,a,h,graphics);
+        }
+        else {
 
 
-            drawHexagon(x + (int) (a / 2), y, a, graphics);
+            drawHexagon(x , y, a, h, graphics);
 
-            hexFractal(x + (int) (a / 2), y, (int) (a / 3), graphics);
-            hexFractal(x + a + (int) (a / 2 + 2 * a / 3), y, (int) (a / 3), graphics);
-            hexFractal(x + a + (int) (a / 3 + a / 6), y + (int) (2 / 3 * (((Math.pow(3, 1 / 2) * a)))), (int) (a / 3), graphics);
-            hexFractal(x + a + (int) (a / 6), y + (int) (int) (4 / 3 * ((Math.pow(3, 1 / 2) * a))), (int) (a / 3), graphics);
-            hexFractal(x + (int) (a / 2), y + (int) (int) (4 / 3 * ((Math.pow(3, 1 / 2) * a))), (int) (a / 3), graphics);
-            hexFractal(x + (int) (a / 6), y + (int) (2 / 3 * (((Math.pow(3, 1 / 2) * a)))), (int) (a / 3), graphics);
+            hexFractal((int)(x+a/3), y, (int)(a/3), h,graphics);
+            hexFractal((int)(x+a), y, (int)(a/3),h,graphics);
+
+            hexFractal((int)(x+a/3), (int)(y +(double)(4.0/3.0*h)), (int)(a/3),h,graphics);
+            hexFractal((int)(x+a), (int)(y +(double)(4.0/3.0*h)), (int)(a/3),h,graphics);
+
+            hexFractal((int)(x), y+(int)(2*h/3.0), (int)(a/3), h,graphics);
+         //   hexFractal((int)(x), y, (int)(a/3),h,graphics);
+
+
+        //    hexFractal((int)(x+((7/6)*a)),y, (int)(a/3),graphics);
+         //   hexFractal((int)(x+1.5*a),(int) (y+0.866*a/9), (int)(a/3),graphics);
+//            hexFractal((int)(x+a/2+2*a/3),(int) (y+0.866*a), (int)(a/3),graphics);
+//            hexFractal((int)(x+a/2),(int) (y+0.866*a/2+0.866*a/3), (int)(a/3),graphics);
+//            hexFractal((int)(x),(int) (y+0.866*a/3), (int)(a/3),graphics);
 
         }
 
