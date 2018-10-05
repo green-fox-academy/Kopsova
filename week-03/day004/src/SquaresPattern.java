@@ -7,27 +7,43 @@ import static javax.swing.JFrame.EXIT_ON_CLOSE;
 public class SquaresPattern {
 
     public static void mainDraw(Graphics graphics){
-        int x =0;
-        int y=0;
-        int w = 300;
 
 
-drawSquare(x, y, w, graphics);
+
+pattern(0,0,900,graphics);
 
     }
 
-    public static void drawSquare (int x, int y, int w, Graphics graphics){
+    public static void drawFourSquare (int x, int y, double w, Graphics graphics){
         graphics.setColor(Color.MAGENTA);
-        graphics.drawRect(x, y,w,w);
+        graphics.drawRect(   x, y+(int)(w/3),(int)(w/3),(int) (w/3));
+        graphics.drawRect(x+(int)(w/3), y+(int)(2*w/3),(int)(w/3),(int)(w/3));
+        graphics.drawRect(x+(int)(2*w/3), y+(int)(w/3), (int)(w/3), (int)(w/3));
+        graphics.drawRect(x+(int)(w/3),y, (int)(w/3),(int)(w/3));
 
     }
 
-    public static int pattern( int x, int y, int w){
+    public static void pattern( double x, double y, double w, Graphics graphics) {
+        if (w <= 10) {
+            drawFourSquare((int)x, (int)y, w, graphics);
+        } else {
+            drawFourSquare((int)x, (int)y, w, graphics);
+//            pattern((int)x, (int)(y), (int) (w / 3), graphics);
+//            drawFourSquare((int)x, (int)y, w, graphics);
+//            pattern((int)x, (int)y, (int) (w / (3)), graphics);
+//            drawFourSquare((int)x, (int)y, w, graphics);
+//            pattern((int)x, (int)y, (int) (w / (3)), graphics);
+//            drawFourSquare((int)x, (int)y, w, graphics);
+//            pattern((int)x, (int)y, (int) (w / 3), graphics);
 
-        w = w/3;
-        x= x + w/3
+
+
+            pattern(x, y + (int) (w / 3), (int) (w / 3), graphics);
+            pattern(x + (int) (w / 3), y, (int) (w / 3), graphics);
+            pattern(x + (int) (w / 3), y + (int) (2 * w / 3), (int) (w / 3), graphics);
+            pattern(x + (int) (2 * w / 3), y + (int) (w / 3), (int) (w / 3), graphics);
+        }
     }
-
 
     // Don't touch the code below
     static int WIDTH = 900;
@@ -48,6 +64,7 @@ drawSquare(x, y, w, graphics);
         @Override
         protected void paintComponent(Graphics graphics) {
             super.paintComponent(graphics);
+            this.setBackground(Color.yellow);
             mainDraw(graphics);
         }
     }
