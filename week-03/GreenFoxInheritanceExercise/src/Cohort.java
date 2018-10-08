@@ -13,8 +13,6 @@ public class Cohort {
         this.name = name;
         students = new ArrayList  <> ();
         mentors = new ArrayList <> ();
-
-
     }
 
     public Cohort () {
