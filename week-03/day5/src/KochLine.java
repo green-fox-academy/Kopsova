@@ -14,17 +14,18 @@ public class KochLine {
 
     }
 
-    public static void drawKochLine(int x, int y, int a, Graphics graphics) {
+    public static void drawKochLine(double x1, double y1, double x2,double y2, Graphics graphics) {
         graphics.setColor(Color.BLUE);
-        graphics.drawLine(x, y, x + a, y);
-        graphics.drawLine(x + a, y, x + a+(int)(float) (0.5*a), y - a);
-        graphics.drawLine(x+a+(int)(float) (0.5*a), y - a, x + 2 * a, y);
-        graphics.drawLine(x + 2 * a, y, x + 3 * a, y);
-    }
+        graphics.drawLine((int)x1, (int)y1, (int) ((x2-x1)/3+x1), (int)y2);
+        graphics.drawLine((int) ((x2-x1)/3+x1), (int)y1, (int)((x2-x1)/3+x1+(x2-x1)/2), (int)(y1+0.866 * (x2-x1)/3));
+        graphics.drawLine((int)((x2-x1)/3+x1+(x2-x1)/2), (int)(y1+0.866 * (x2-x1)/3), (int)(x2-x1 + 1.5*(x2-x1)), (int) (x2));
+        graphics.drawLine((int)(((int)(x2-x1 + 1.5*(x2-x1)))), y1, (int) (x2 ) , (int)(y2)))
 
     public static void fractalKoch (int x, int y, int a, Graphics graphics){
         if (a<=10){
             drawKochLine(x,y,a,graphics);
+            fractalKoch(x,y,(int)(a/3.0),graphics);
+
         }
 
 
