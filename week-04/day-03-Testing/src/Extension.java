@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 
 /**
@@ -6,17 +7,29 @@ import java.util.List;
  */
 public class Extension {
     int add(int a, int b) {
-        return 5;
+        return a+b;
     }
 
     int maxOfThree(int a, int b, int c) {
-        if (a > b)
+        if (a >= b && a>= c)
             return a;
         else
-            return c;
+            if (b>=a && b>=c)
+            return b;
+            else return c;
+
     }
 
     int median(List<Integer> pool) {
+
+        for (int i = 0; i <pool.size() ; i++) {
+            for (int j = i; j <pool.size() ; j++) {
+                if (pool.get(i)> pool.get(i+1)){
+                   pool.set(pool.size()+1, pool.get(i));
+                   pool.remove(i);
+                }
+            }
+        }
         return pool.get((pool.size()-1)/2);
     }
 
