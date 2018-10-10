@@ -12,16 +12,18 @@ public class Anagram {
         this.string2 = string2;
     }
 
-    public boolean anagramCheck (String word, String drow) {
+    public boolean anagramCheck () {
 
-        ArrayList<String> array1 = new ArrayList(Arrays.asList(word));
-        ArrayList<String> array2 = new ArrayList(Arrays.asList(drow));
-        if (array1.size()!=array2.size()) {
+
+        for (int i = 0; i <this.string1.length() ; i++) {
+
+        }
+        if (this.string1.length()!=this.string2.length()) {
             return false;
         }else  {
-            for (int i = 0; i < array1.size() ; i++) {
+            for (int i = 0; i < this.string2.length() ; i++) {
                 if (
-                array1.get(i) != array2.get(array2.size() -i)){
+                this.string1.charAt(i) != this.string2.charAt(this.string2.length() -i-1)){
                     return false;
                 }
             }
