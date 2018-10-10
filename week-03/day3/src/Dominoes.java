@@ -1,6 +1,7 @@
 import jdk.internal.org.objectweb.asm.tree.analysis.Value;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Dominoes {
@@ -9,7 +10,7 @@ public class Dominoes {
         // You have the list of Dominoes
         // Order them into one snake where the adjacent dominoes have the same numbers on their adjacent sides
         // eg: [2, 4], [4, 3], [3, 5] ...
-Domino dominoesNew;
+//Domino dominoesNew;
 
         for (int i = 0; i <dominoes.size() ; i++) {
             for (int j = 1; j <dominoes.size() ; j++) {
@@ -21,6 +22,11 @@ Domino dominoesNew;
                }
             }
         System.out.println(dominoes);
+        Collections.sort(dominoes);
+        System.out.println(dominoes);
+
+
+
     }
 
     static List<Domino> initializeDominoes() {
@@ -33,5 +39,7 @@ Domino dominoesNew;
         dominoes.add(new Domino(7, 1));
         return dominoes;
     }
+
+
 
 }

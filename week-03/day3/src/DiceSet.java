@@ -45,7 +45,7 @@ public class DiceSet {
         diceSet.reroll(4);
         diceSet.getCurrent();
         System.out.println(Arrays.toString(diceSet.dices));
-        Arrays.toString(diceSet.dices)
+        Arrays.toString(diceSet.dices);
 
            do { diceSet.reroll();
         } while(! (diceSet.getCurrent(0) ==6 && diceSet.getCurrent(1) ==6 &&diceSet.getCurrent(2) ==6 &&

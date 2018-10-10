@@ -11,7 +11,8 @@ public class TestInput {
         people.add(mark);
         Person jane = new Person();
         people.add(jane);
-        Student john = new Student("John Doe", 20, "male", "BME");
+        Student john = new Student("John Doe", 21, "male", "BME");
+        Student john2 = (Student) john.clone();
         people.add(john);
         Student student = new Student();
         people.add(student);

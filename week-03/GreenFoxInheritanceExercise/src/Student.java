@@ -1,4 +1,4 @@
-public class Student extends Person {
+public class Student extends Person implements Cloneable {
    String previousOrganisation;
    int skippedDays;
 
@@ -34,4 +34,12 @@ public class Student extends Person {
    public int skipDays ( int days){
       return  skippedDays = days + skippedDays;
    }
+
+    @Override
+    protected Object clone() {
+        return new Student(name, age, gender, previousOrganisation);
+    }
 }
+
+
+
