@@ -1,2 +1,2 @@
 # Kopsova
-Prague vulpes
+https://github.com/Kopsova/todo-app
