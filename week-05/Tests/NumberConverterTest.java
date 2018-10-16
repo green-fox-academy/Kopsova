@@ -9,7 +9,7 @@ public class NumberConverterTest {
 
     @Test
     public void testConverting(){
-        int number = 457120755;
+        int number = 1234567891;
         NumberConverter myConvert = new NumberConverter();
 
         assertEquals( "seven hundred and fifty five", myConvert.convert(number) );
