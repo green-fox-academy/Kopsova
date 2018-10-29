@@ -4,23 +4,28 @@ import java.util.stream.Collectors;
 
 public class FoxList {
 
-ArrayList<Fox> foxesInWood = new ArrayList<>();
+    ArrayList<Fox> foxesInWood = new ArrayList<>();
+
     public FoxList() {
 
     }
-    public void add(Fox fox){
+
+    public void add(Fox fox) {
         foxesInWood.add(fox);
     }
 
-    public ArrayList findGreenFox (){
-      List<Fox> result = new ArrayList<Fox>();
-      result = foxesInWood.stream().filter(n -> n.color =="green").collect(Collectors.toList());
-      return result;
-
+    public String findGreenFox() {
+        List<Fox> result = new ArrayList<Fox>();
+        result = foxesInWood.stream().filter(n -> n.color == "green").collect(Collectors.toList());
+       // List<Fox> finalResult = result;
+        return  result.stream().map(Fox->Fox.name).collect(Collectors.joining(", "));//forEach(n-> result.get(n).name);
 
     }
 
-    public ArrayList findGreenPallinda (){
-
-
+    public String findGreenPallinda() {
+        List<Fox> result = new ArrayList<Fox>();
+        result = foxesInWood.stream().filter(n -> n.color == "green"&& n.type=="pallinda").collect(Collectors.toList())
+        ;
+        return result.stream().map(Fox ->Fox.name).collect(Collectors.joining( ", "));
+    }
 }

@@ -12,13 +12,14 @@ public class E10_MainFox {
         FoxList myFoxes = new FoxList();
         myFoxes.add(new Fox("Lilly", "pallinda", "green"));
         myFoxes.add(new Fox("Kiki", "vulpes", "red"));
-        myFoxes.add(new Fox("Miky", "pallinda", "brown"));
+        myFoxes.add(new Fox("Miky", "pallinda", "green"));
         myFoxes.add(new Fox("Snowie", "polar", "white"));
         myFoxes.add(new Fox("Sparky", "polar", "green"));
 
 
-        System.out.println(findGreenFox);
-        SQLOutput(findGreenPallinda);
+
+        System.out.println(myFoxes.findGreenFox());
+        System.out.println(myFoxes.findGreenPallinda());
 
     }
 }
