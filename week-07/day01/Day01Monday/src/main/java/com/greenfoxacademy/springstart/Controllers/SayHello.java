@@ -11,10 +11,18 @@ public class SayHello {
             "Salve", "Ciao", "Kon-nichiwa", "An-nyong Ha-se-yo", "Salvëte", "Ni hao", "Dzien' dobry", "Olá", "Bunã ziua", "Zdravstvuyte", "Hola", "Jambo", "Hujambo", "Hej",
             "Sa-wat-dee", "Merhaba", "Selam", "Vitayu", "Xin chào", "Hylo", "Sut Mae", "Sholem Aleychem", "Sawubona"};
 
-    @RequestMapping ("/web/greeting")
+
+    public Integer fontSize () {
+            return (Integer) (int) Math.random()*30;
+    }
+    @RequestMapping ("/web/sayhello")
     public String hello (Model model){
-        model.addAttribute( "hello", hellos[(int)Math.random()*hellos.length]);
-        return  "sayHello";
+        String hello = hellos[(int)(Math.random()*hellos.length)];
+
+
+        model.addAttribute( "hello", hello);
+        model.addAttribute("size", fontSize());
+        return "sayhello";
     }
 
 }

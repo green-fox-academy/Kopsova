@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>email</title>
+</head>
+<body >
+<p th:style="'color:'+${emailColor}" th:text="${email}+' '+${emailMessage}"></p> ;
+
+<h1 th:switch="${validEmail}">
+    <h2 th:case="${email} + ' is a valid email.'"></h2>
+    <h2 th:case="${email} + 'is not a valid email.'"></h2></h1>
+</div>
+
+
+</body>
+</html>

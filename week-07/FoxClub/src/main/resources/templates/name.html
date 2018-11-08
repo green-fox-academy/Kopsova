@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>name</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<ul><li><a th:text="Information"></a> </li></ul>
+<span> </span>
+<img src="/images/greenfox.png" alt="greenfox">
+<br>
+<p th:text="'This is' + ${name} +'. Currently living on pizza and lemonade. He knows 2 tricks.'" ></p>
+<h1 th:text="'Known tricks'"></h1>
+<ul><li><a th:text="'write HTML'"></a></li></ul>
+<ul><li><a th:text="'code in Java'"></a></li></ul>
+
+
+
+
+</body>
+</html>

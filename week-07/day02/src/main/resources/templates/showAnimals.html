@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Thymeleaf Exercise #</title>
+    <link rel="stylesheet" th:href="@{/style.css}" />
+    <meta charset="utf-8" />
+</head>
+<body>
+<table>
+    <thead th:colspan="2" >List of animals accounts</thead>
+    <tr th:each=" animal: ${myListOfAccounts}">
+        <td th:text = "${animal.getName()}" ></td>
+        <td th:text = "${animal.getBalance()}" ></td>
+        <td th:text = "${animal.getCurrency()}" ></td>
+        <td th:text = "${animal.getAnimalType()}" ></td>
+    </tr>
+</table>
+
+
+</body>
+</html>
