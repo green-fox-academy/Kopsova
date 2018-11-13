@@ -10,9 +10,8 @@ public class CardsInHand {
     int K = 13;
     int A = 14;
 
-    public CardsInHand(ArrayList<Card> whitePlayer, ArrayList<Card> blackPlayer) {
-        this.whitePlayer = whitePlayer;
-        this.blackPlayer = blackPlayer;
+    public CardsInHand() {
+
         whitePlayer.add(new Card("C",2));
         whitePlayer.add(new Card("H",3));
         whitePlayer.add(new Card("S",4));

@@ -1,7 +1,7 @@
 public class Card {
 
-    String color;
-    int value;
+   public String color;
+   public int value;
 //    int J = 11;
 //    int Q = 12;
 //    int K = 13;
@@ -12,10 +12,13 @@ public class Card {
         this.value = value;
     }
 
+    public String getColor() {
+        return color;
+    }
 
-
-
-
+    public int getValue() {
+        return value;
+    }
 }
 
 
