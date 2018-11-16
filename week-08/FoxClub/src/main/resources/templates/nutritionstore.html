@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html  xmlns:th="http://www.thymeleaf.org">lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul>
+    <li th:text="Information"></li>
+    <li th:text="Nutrition Store"></li>
+    <li th:text="Trick Center"></li>
+    <li th:text="Action History"></li>
+</ul>
+
+
+<form  action="/login" method="post">
+    Food <input type="text" name="food">
+    <select id="food-select">
+        <option value="">--Please choose an option--</option>
+        <option value="pizza">pizza</option>
+        <option value="cat">cat</option>
+        <option value="hamster">hamster</option>
+        <option value="parrot">parrot</option>
+        <option value="spider">Spider</option>
+    </select>
+    Drink <input type="text" name="drink">
+    <select id="drink-select">
+        option value="">--Please choose an option--</option>
+        <option value="water">water</option>
+        <option value="beer">beer</option>
+        <option value="blood">blood</option>
+        <option value="whiskey">whiskey</option>
+        <option value="gin">gin</option>
+    </select>
+    <input type="Submit" value="Change">
+</form>
+
+
+
+
+
+</body>
+</html>

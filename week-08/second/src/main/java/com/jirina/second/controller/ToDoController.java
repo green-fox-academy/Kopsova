@@ -1,12 +1,11 @@
-package controller;
+package com.jirina.second.controller;
 
-import model.ToDo;
+import com.jirina.second.model.ToDo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
-import repository.ToDoRepository;
+import com.jirina.second.repository.ToDoRepository;
 
 import java.util.ArrayList;
 import java.util.List;

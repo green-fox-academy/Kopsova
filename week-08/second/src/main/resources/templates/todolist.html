@@ -2,16 +2,35 @@
 
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
+    <link rel="stylesheet" href="style.css">
+    <link href="webjars/bootstrap/3.3.7-1/css/bootstrap.min.css" rel="stylesheet"/>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
-<h1>ToDos for today:</h1>
-<ul th:each="whatever:${todo}">
-    <li th:text="${whatever.title}"></li>
-</ul>
+<h1>ToDos:</h1>
+<h2>New ToDo</h2>
+<input type="submit" value="Remember everything"> <input type="submit" value="Add">
+
+<div class="container">
+
+<table>
+    <tr>
+        <th>ToDo</th> <th>Actions</th>
+    </tr>
+
+    <th:block th:each="whatever:${todo}">
+        <tr>
+            <td th:text="${whatever.title}"></td> <td>LINK</td>
+        </tr>
+    </th:block>
 
 
 
+
+</table>
+
+<script src="webjars/jquery/1.11.1/jquery.min.js"></script>
+<script src="webjars/bootstrap/3.3.7-1/js/bootstrap.min.js"></script>
 </body>
 </html>

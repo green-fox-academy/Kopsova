@@ -1,4 +1,4 @@
-package model;
+package com.jirina.second.model;
 
 
 import javax.persistence.*;
@@ -12,6 +12,7 @@ public class ToDo {
 
     String title;
     boolean done ;
+    boolean isUrgent;
 
     public ToDo() {
         done = false;
@@ -20,6 +21,7 @@ public class ToDo {
     public ToDo(String title) {
         this.title = title;
         done = false;
+        isUrgent= false;
     }
 
     public String getTitle() {
